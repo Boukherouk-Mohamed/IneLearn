@@ -1,0 +1,1240 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Navbar  */
+.headerAvantConn{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid blue;
+    position: fixed;
+   
+}
+.logo{
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+
+}
+.headerAvantConn img{
+    width: 100%
+
+}
+
+
+.middleNav{
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    font-weight: bold;
+}
+
+.middleNav a{
+    text-decoration: none;
+    margin-left: 60px;
+    background-color: white;
+    color: black;
+}
+
+.btns{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+}
+.btns button{
+    background-color: #B7CFFF;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.showBtn{
+    width: 50px;
+    margin-left: 1rem;
+    display: none;
+}
+.showBtn img{
+    width: 100%;
+}
+.showBtn img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.profileIcon img{
+    width: 50px;
+
+}
+
+
+.sideBar{
+    font-weight: bolder;
+    width: 40%;
+    background-color: #212121;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    text-align: center;
+    opacity: 1; /* Set initial opacity */
+    transition: 0.5s /* Set default transition time and easing function */
+
+}
+.sideBar a{
+    padding: 0.5rem;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 3rem;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+.sideBar a:hover{
+    transform: scale(1.05);
+    color: rgb(101, 101, 255);
+}
+.sideBar button{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 20px;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+}
+.sideBar button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+/*  home part 1   */
+
+
+.homePart1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftPartHome{
+    display: block;
+    text-align: center;
+    width: 500px;
+    padding: 3rem;
+}
+
+.leftPartHome h1{
+    font-size: 55px;
+    margin-top: 1rem;
+}
+.leftPartHome h3{
+    font-size: 30px;
+    color: #0066FF;
+    margin-top: 1rem;
+}
+.leftPartHome button{
+    color: black;
+    background-color: #B7CFFF;
+    width: 270px;
+    height: 60px;
+    border: none;
+    font-size: 26px;
+    font-weight: 501;
+    margin-top: 2rem;
+}
+.rightPartHome {
+    width: 500px;
+}
+
+.rightPartHome img{
+    width: 100%;
+}
+.trust{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+.trust h1{
+    margin-top: 1rem;
+    color: #0066FF;
+    font-size: 30px;
+    font-weight: 400;
+}
+.pannelSocialMedia{
+    margin: auto;
+    max-width: 80%;
+    height: 80px;
+    background: #B7CFFF;
+    border-radius: 24px 24px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.pannelSocialMedia img{
+    width: 11%;
+    height: 43px;
+
+}
+
+
+@media screen and (max-width: 1150px) and (min-width: 800px) {
+    .leftPartHome{
+        width: 40%;
+
+    }
+    .rightPartHome {
+
+        width: 45%;
+    } 
+    .leftPartHome h1{
+    font-size: 40px;
+  }
+  .leftPartHome h3{
+    font-size: 25px;
+  }
+
+
+}
+
+
+
+
+
+/* Courses */
+
+
+.Courses .title{
+    margin-top: 2rem;
+    padding-left: 10%;
+    color: rgba(71, 78, 104, 1);
+    font-size: 25px;
+}
+.Courses .title hr{
+    width: 4rem;
+    height: 5px;
+    background-color: rgba(71, 78, 104, 1);
+    border-radius: 0px 5px 5px 0px;
+    border-color: rgba(71, 78, 104, 1);
+    color: rgba(71, 78, 104, 1);
+}
+.CoursesContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.course{
+    width: 353px;
+    height: 350px;
+    margin-top: 2rem;
+    background-color: #D9D9D9;
+    margin-top: 20px;
+
+}
+.course h2{
+    padding: 5px;
+    background-color: transparent;
+}
+.course p{
+    background-color: transparent;
+    padding: 5px;
+}
+.course img{
+    width: 100%;
+}
+.buttomCourse{
+    width: 100%;
+    height: 50px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.buttomCourse img{
+    width: 20px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.buttomCourse p{
+    background-color: #D9D9D9;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1150px) and (min-width: 800px) {
+    .course{
+        width: 300px;
+
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .course{
+        width: 90%;
+    }
+
+        
+    
+}
+
+
+/* numberCourses  */
+
+.numberCourses{
+    margin-top: 5rem;
+    width: 100%;
+    background-color: #86CBF2;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.numberCourses p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* classe   */
+.classe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.rightSideClasse{
+    width: 500px;
+}
+.leftSideClasse{
+    width: 500px;
+}
+.rightSideClasse img{
+    width: 500px;
+}
+
+
+@media screen and (max-width: 1150px) and (min-width: 800px) {
+    .leftSideClasse{
+        width: 45%;
+    }
+    .rightSideClasse{
+
+        width: 49%;
+    }
+    .rightSideClasse img{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 799px) {
+    .rightSideClasse{
+        margin-top: 1rem;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 1rem;
+    }
+    .rightSideClasse img{
+        width: 100%;
+    }
+    .leftSideClasse{
+        width: 98%;
+        padding: 1rem;
+    }
+
+}
+ 
+
+/* aboutUs */
+
+
+.aboutUs{
+    background: rgba(134, 203, 242, 0.5);
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftSideAboutUS{
+    width: 500px;
+    background-color: transparent;
+}
+.rightSideAboutUS{
+    width: 500px;
+    background-color: transparent;
+}
+.rightSideAboutUS p{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+    .leftSideAboutUS{
+        width: 49%;
+    }
+    .rightSideAboutUS{
+
+        width: 45%;
+    }
+    .leftSideAboutUS img{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 799px) {
+    .rightSideAboutUS{
+        margin-top: 1rem;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 1rem;
+    }
+    .leftSideAboutUS img{
+        width: 90%;
+    }
+    .leftSideAboutUS{
+        width: 98%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+}
+ 
+
+
+/* testimonials */
+
+
+.titleTestimonials{
+    margin-top: 2rem;
+    padding-left: 10%;
+    color: rgba(71, 78, 104, 1);
+    font-size: 25px;
+}
+
+.titleTestimonials hr{
+    width: 4rem;
+    height: 5px;
+    background-color: rgba(71, 78, 104, 1);
+    border-radius: 0px 5px 5px 0px;
+    border-color: rgba(71, 78, 104, 1);
+    color: rgba(71, 78, 104, 1);
+}
+.containerTestimonials{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftSideTestimonials p{
+    font-size: 20px;
+    color:  #696984;
+    margin-bottom: 1rem;
+}
+
+.whatTheysay{
+
+
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+.leftSideTestimonials{
+    width: 50%;
+    margin-left: 4%;
+    margin-bottom: 4rem;
+}
+.leftSideTestimonials button{
+    width: 40%;
+    height: 50px;
+    border: #49BBBD 1px solid;
+    border-radius: 30px;
+    color: #49BBBD;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.leftSideTestimonials button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.rightSideTestimonials{
+    width: 40%;
+
+}
+
+
+
+
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+    .leftSideTestimonials{
+        width: 49%;
+    }
+    .rightSideTestimonials{
+
+        width: 45%;
+    }
+    .rightSideTestimonials img{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 799px) {
+    .rightSideTestimonials{
+        margin-top: 1rem;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 1rem;
+    }
+    .rightSideTestimonials img{
+        width: 90%;
+    }
+    .leftSideTestimonials{
+        width: 80%;
+        padding: 1rem;
+
+  
+    }
+
+}
+ 
+
+
+
+
+/* Footer  */
+
+.Footer{
+    margin-top: 3rem;
+    width: 100%;
+    padding-bottom: 20vh;
+
+    background-color: #161C2E;
+}
+.contactusLine{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+    width: 100%;
+    border-bottom: 1px solid blue;
+
+    background-color: #003C57;
+    height: 100px;
+}
+.reseau{
+    background-color: transparent;
+    display: flex;
+    width: 15rem;
+    align-items: center;
+}
+.reseau img{
+    background-color: transparent;
+    width: 60px; 
+    margin-left: 40px;
+
+}
+.reseau p{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+
+}
+
+.infosFooter{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+
+}
+.aboutUsInfos{
+    width: 13%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+
+}
+.aboutUsInfos h1{
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+}
+.aboutUsInfos p{
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+}
+.aboutUsInfos a{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.aboutUsInfos a:hover{
+    color: blue;
+}
+
+
+@media screen and (max-width : 970px ) {
+    
+    .aboutUsInfos{
+        width: 200px;
+
+        margin-top: 1rem;
+    }
+    .contactusLine{
+        height: 160px;
+    }
+}
+
+
+
+
+
+/*LOGIN PAGE */
+.bodyLogin{
+    background-color: #ffffff;
+}
+.head img{
+    width: 150px;
+    padding: 1rem;
+    border-radius: 60px;
+}
+
+.loginBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.leftBodyLogin img{
+    width: 600px;
+
+}
+
+
+.rightBodyLogin{
+    display: grid;
+    grid-column: auto;
+    width: 400px;
+}
+.rightBodyLogin input{
+
+     height: 50px;
+     border-radius: 60px;
+    border: 1px solid rgb(73, 187, 189);
+    padding-left: 2rem;
+    width: 90%;
+
+}
+.rightBodyLogin input:hover{
+    scale: 1.01;
+}
+#submit-button{
+    margin-left: 43%;
+}
+#submit-button:hover{
+    cursor: pointer;
+    scale: 1.05;
+    background-color: rgba(73 , 187, 189, 0.6);
+}
+
+.headRightBody{
+    background-color: rgba(73 , 187, 189, 0.6);
+    height: 3.5rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.headRightBody p{
+    background-color:transparent;
+}
+.rightBodyLogin a{
+    margin-left: auto;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.rightBodyLogin a:hover{
+    color: #0066FF;
+}
+.rightBodyLogin button{
+    width: 55%;
+    height: 50px;
+    margin-left: auto;
+    background-color:rgb(73 , 187, 189);
+    border-radius: 60px;
+    border: none;
+}
+
+#submitButtonRegister{
+    width: 200px;
+}
+
+#submitButton{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+/* Home page after login */
+
+.historiqueLesson{
+    width: 100%;
+    background-color: #EBF5FF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.divHistorique{
+    background-color: #EBF5FF;
+}
+.divHistorique h2{
+    margin-left: 6%;
+    font-weight: bold;
+}
+
+.coursHistorique{
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(177, 177, 177, 0.55);
+    margin-top: 15px;
+}
+.coursHistorique img{
+    width: 98%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.coursHistorique h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.coursHistorique p{
+    margin-left: auto;
+    font-size: 10px;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+/*    CoursesPage    */
+
+.CourseContainer{
+    width: 80%;
+
+    margin: auto;
+    border-radius: 25px;
+}
+
+
+.CourseContainer .title{
+    text-align: center;
+    background-color: transparent;
+}
+.ListeCoursesCont{
+    display: block;
+    background: #E7EAEC;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.ListeCoursesCont a{
+    text-decoration: none;
+    color: black;
+}
+
+.IndividualCourse{
+    width: 85%;
+    background: #FFFFFF;
+    box-shadow: 0px 18.83px 47.08px rgba(47, 50, 125, 0.1);
+    border-radius: 20px;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    margin: auto;
+}
+.IndividualCourse:hover{
+    scale: 1.015;
+    background-color: #f6f6f6;
+}
+.IndividualCourse .picCourseIndiv{
+    width:  100px;
+    padding: 1rem;
+}
+.picCourseIndiv img{
+    width: 100px;
+    border-radius: 10px;
+}
+.InfosCoursIndiv{
+    width: 90%;
+
+    padding: 1rem;
+
+}
+
+@media screen and (max-width : 900px ) and (max-width: 600px){
+    .CourseContainer{
+        width: 100%;
+    }
+    .IndividualCourse{
+        display: block;
+    }
+    .InfosCoursIndiv h2{
+        font-size: 20px;
+    }
+    .InfosCoursIndiv p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 599px) {
+    .IndividualCourse{
+        display: block;
+        text-align: center;
+    }
+    .picCourseIndiv{
+        text-align: center;
+        margin: auto;
+
+    }
+    
+}
+
+
+
+/*  favourite course   */
+.FavCourse{
+    padding-bottom: 4rem;
+    display: grid;
+    width: 90%;
+    margin: auto;
+}
+.FavCourse h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.listeFavCourses{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.listeFavCourses a{
+    text-decoration: none;
+    margin: auto;
+}
+.listeFavCourses a:hover{
+    scale: 1.02;
+}
+.courseFav{
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(177, 177, 177, 0.55);
+    margin-top: 15px;
+}
+.courseFav img{
+    width:60%;
+    margin: auto;
+    border-radius: 10px;
+}
+.courseFav h3{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (max-width: 500px) {
+    .coursHistorique{
+        width: 60%;
+    }
+    .coursHistorique img{
+        width: 80%;
+    }
+
+     .courseFavLink{
+        width: 90%;
+
+    }
+    .courseFav{
+        width: 80%;
+
+    }
+    .courseFav img{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width: 910px) and (min-width: 501px) {
+    .coursHistorique{
+        width: 300px;
+    }
+    .courseFav{
+        width: 300px;
+    }
+    .courseMostViewd{
+        width: 280px;
+    }
+
+
+}
+
+
+
+
+/*Most viewd*/
+.mostViewd{
+    background: #E4EDFA;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+.coursesMostViewd{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: #E4EDFA;
+
+}
+.title{
+    background: #E4EDFA;
+    margin-left: 5%;
+}
+.title h1{
+    background: #E4EDFA;
+    font-weight: bold;
+}
+.courseMostViewd{
+    width: 350px;
+    padding: 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 18.83px 47.08px rgba(47, 50, 125, 0.1);
+    border-radius: 10px;
+    margin-top: 1rem;
+
+}
+
+.picMostViewd{
+    width: 100%;
+    border-radius: 10px;
+}
+.courseMostViewd .histo{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.titleCourse{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footerCourseMostViewd{
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+.footerCourseMostViewdLeft{
+    display: flex;
+    align-items: center;
+}
+.footerCourseMostViewdLeft img{
+    width: 40px;
+}
+.footerCourseMostViewdLeft h2{
+    font-size: 15px;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+.footerCourseMostViewdRight {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width : 500px) {
+    .courseMostViewd{
+        width: 70%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    Courses page     */
+
+.move-left {
+
+        transform: translateX(-250px); /* Move the left div 200px to the left */
+        transition: transform 0.3s ease; /* Add a transition effect */
+      
+}
+.move-left a{
+    display: grid;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.middleCoursesPage{
+    display: flex;
+
+}
+.leftCoursespage{
+
+    width: 15%;
+    height: 100%;
+    background-color: rgba(4, 187, 255, 0.37);
+    position: fixed;
+    overflow: auto;
+    margin-top: 100px;
+    padding-top: 0.5rem;
+
+}
+.leftCoursespage a{
+    display: grid;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.rightCoursesSide{
+    width: 80%;
+    display: grid;
+    margin-left:auto ;
+    padding-left: 20%;
+    padding-top: 10rem;
+    
+}
+.rightCoursesSide h4{
+    margin-top: 1rem;
+    font-size: 25px;
+}
+.rightCoursesSide p{
+    width: 90%;
+    margin-top: 2rem;
+}
+.exemple{
+    width: 80%;
+    background-color: rgba(4, 187, 255, 0.25);
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    border: 0.2px solid #a5a3a3;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+button:hover{
+    cursor: pointer;
+    scale: 1.02;
+}
+.course{
+       margin: auto; 
+}
+.selectedPage{
+    background-color: #adcaf6;
+    padding: 5px;
+}
+.course:hover{
+    scale: 1.02;
+
+}
+.CoursesContainer{
+    
+}
+.inputValue{
+    width: 80%;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: white;
+    border-left: 2px solid black ;
+    border: none;
+    margin-top: 1rem;
+    border-left: 4px solid black;
+}
+.DidYouKnow{
+    color: white;
+    width: 80%;
+    background: linear-gradient(180deg, rgba(53, 88, 147, 0.95) 0%, rgba(88, 157, 198, 0.95) 100%);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.btnsSuivantPrec{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+
+}
+.btnsSuivantPrec button{
+    width: 175px;
+    height: 45px;
+    background-color: rgba(237, 109, 78, 0.95);
+    margin-top: 2rem;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.showListCourses{
+    display: none;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+}
+.showListCourses:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.showListCourses{
+    display: none;
+}
+.closeListBtn{
+    position: absolute;
+    left: 8.5rem;
+    top: 6.5rem;
+    color: white;
+    background-color: rgb(250, 0, 0);
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    font-size: 15px;
+    display: none;
+}
+.closeListBtn:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+    .leftCoursespage{
+          width: 170px;
+    }
+    .rightCoursesSide{
+        margin-left: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width : 799px) {
+    .leftCoursespage{
+        width: 170px;
+        opacity: 0;
+        display: none;
+       
+    }
+    .rightCoursesSide{
+        width: 90%;
+        margin: auto;
+        padding-left: 10%;
+
+    }
+    .showListCourses{
+        display: grid;
+    }
+    .show {
+        display: grid !important;
+        opacity: 1 !important;
+        background-color: rgba(4, 187, 255, 0.9) !important;
+    }
+    
+}
+ 
+
+@media screen and ( max-width:1100px ) {
+    #middleNav{
+       display: none;
+    }
+    .headerAvantConn{
+        justify-content: space-between;
+
+    }
+    .showBtn{
+        display: block;
+    }
+
+}
